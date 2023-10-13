@@ -34,7 +34,7 @@ mpirun -np 1 python train.py --env $ENV --method $METHOD --expert_percent $EXPER
 ```
 | Flags and Parameters  | Description |
 | ------------- | ------------- |
-| ``--env $ENV``  | offline GCRL tasks: ```FetchReachObstacle, FetchPushObstacle, FetchPickObstacle, FetchSlideObstacle, PandaPush```|
+| ``--env $ENV``  | constrained offline GCRL tasks: ```FetchReachObstacle, FetchPushObstacle, FetchPickObstacle, FetchSlideObstacle, PandaPush```|
 | ``--method $METHOD``  | offline GCRL algorithms: ```rbsl, gofar, gcsl, wgcsl, AMlag```|
 | ``--expert_percent $EXPERT --random_percent $RANDOM``  | percent: ```0 1, 0.1 0.9, 0.2 0.8, 0.5 0.5, 1 0```|
 
