@@ -13,7 +13,7 @@ Here is a video practicing RbSL on a real robot!
 
 ## SetUp
 ### Requirements
-- MuJoCo=2.0.0
+- MuJoCo=2.1.0
 
 ### Setup Instructions
 1. Create conda environment and activate it:
