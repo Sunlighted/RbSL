@@ -8,7 +8,7 @@ Chenyang Cao<sup>1</sup>, Zichen Yan<sup>1</sup>, Renhao Lu<sup>1</sup>, Junbo T
 
 This is a PyTorch implementation of our paper [Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy](); this code can be used to reproduce simulation experiments of the paper. 
 
-Here is a teaser video comparing GoFAR against state-of-art offline GCRL algorithms on a real robot!
+Here is a video practicing RbSL on a real robot!
 [video](coming soon)
 
 ## SetUp
