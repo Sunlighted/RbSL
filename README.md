@@ -19,14 +19,14 @@ Here is a video practicing RbSL on a real robot!
 1. Create conda environment and activate it:
      ```
      conda env create -f environment.yaml
-     conda activate gofar
+     conda activate rbsl
      pip install --upgrade numpy
      pip install torch==1.10.0 torchvision==0.11.1 torchaudio===0.10.0 gym==0.17.3
 2. (Optionally) install the [Panda-gym](https://github.com/qgallouedec/panda-gym) environment for the panda experiment.
-3. Download the offline dataset [here](https://drive.google.com/file/d/1niq6bK262segc7qZh8m5RRaFNygEXoBR/view) and place ```/offline_data``` in the project root directory.
+3. Download the offline dataset [here](https://cloud.tsinghua.edu.cn/d/22d96f1efa0942d0b551/) and place ```/offline_data``` in the project root directory.
 
 ## Experiments
-We provide commands for reproducing the main offline GCRL results in Table 1
+We provide commands for reproducing the main RbSL results in Table 1
 
 The following command can reproduce the main results:
 ```
