@@ -11,7 +11,7 @@ This is a PyTorch implementation of our paper [Offline Goal-Conditioned Reinforc
 Here is a video practicing RbSL on a real robot!
 [video](coming soon)
 
-## SetUp
+## Setup
 ### Requirements
 - MuJoCo=2.1.0
 
@@ -36,7 +36,7 @@ mpirun -np 1 python train.py --env $ENV --method $METHOD --expert_percent $EXPER
 | ------------- | ------------- |
 | ``--env $ENV``  | constrained offline GCRL tasks: ```FetchReachObstacle, FetchPushObstacle, FetchPickObstacle, FetchSlideObstacle, PandaPush```|
 | ``--method $METHOD``  | offline GCRL algorithms: ```rbsl, gofar, gcsl, wgcsl, AMlag```|
-| ``--expert_percent $EXPERT --random_percent $RANDOM``  | percent: ```0 1, 0.1 0.9, 0.2 0.8, 0.5 0.5, 1 0```|
+| ``--expert_percent $EXPERT`` ``--random_percent $RANDOM``  | percent: ```0 1, 0.1 0.9, 0.2 0.8, 0.5 0.5, 1 0```|
 
 ## Acknowledgement:
 We referred to some code from the following repositories:
