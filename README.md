@@ -45,9 +45,15 @@ We referred to some code from the following repositories:
 
 ## Cite:
 If you use this repo, please cite as follows:
+
 @article{cao2024offline,
+
   title={Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy},
+  
   author={Cao, Chenyang and Yan, Zichen and Lu, Renhao and Tan, Junbo and Wang, Xueqian},
+  
   journal={arXiv preprint arXiv:2403.01734},
+  
   year={2024}
+  
 }
