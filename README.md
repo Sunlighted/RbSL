@@ -1,6 +1,6 @@
 ## Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy
 
-#### [[Paper(ICRA2024)]]([arxiv](https://arxiv.org/abs/2403.01734))
+#### [[Paper(ICRA2024)]](https://arxiv.org/abs/2403.01734)
 
 Chenyang Cao<sup>1</sup>, Zichen Yan<sup>1</sup>, Renhao Lu<sup>1</sup>, Junbo Tan<sup>1</sup>, Xueqian Wang<sup>1</sup>
 
@@ -42,3 +42,12 @@ mpirun -np 1 python train.py --env $ENV --method $METHOD --expert_percent $EXPER
 We referred to some code from the following repositories:
 - [AWGCSL](https://github.com/YangRui2015/AWGCSL)
 - [GoFAR](https://github.com/JasonMa2016/GoFAR)
+
+## Cite:
+If you use this repo, please cite as follows:
+@article{cao2024offline,
+  title={Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy},
+  author={Cao, Chenyang and Yan, Zichen and Lu, Renhao and Tan, Junbo and Wang, Xueqian},
+  journal={arXiv preprint arXiv:2403.01734},
+  year={2024}
+}
