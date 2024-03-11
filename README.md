@@ -1,12 +1,12 @@
 ## Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy
 
-#### [[Paper]](see it soon on arxiv)
+#### [[Paper(ICRA2024)]]([arxiv](https://arxiv.org/abs/2403.01734))
 
 Chenyang Cao<sup>1</sup>, Zichen Yan<sup>1</sup>, Renhao Lu<sup>1</sup>, Junbo Tan<sup>1</sup>, Xueqian Wang<sup>1</sup>
 
 <sup>1</sup>SIGS, Tsinghua University
 
-This is a PyTorch implementation of our paper [Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy](); this code can be used to reproduce simulation experiments of the paper. 
+This is a PyTorch implementation of our paper [Offline Goal-Conditioned Reinforcement Learning for Safety-Critical Tasks with Recovery Policy](https://arxiv.org/abs/2403.01734); this code can be used to reproduce simulation experiments of the paper. 
 
 Here is a video practicing RbSL on a real robot!
 [video](coming soon)
